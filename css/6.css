@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 401011 */
+    src: url('//at.alicdn.com/t/font_401011_3r279kuxl9d7k3xr.eot');
+    src: url('//at.alicdn.com/t/font_401011_3r279kuxl9d7k3xr.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_401011_3r279kuxl9d7k3xr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_401011_3r279kuxl9d7k3xr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_401011_3r279kuxl9d7k3xr.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+    margin:0;   /*清楚body身上的8px；*/
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height:100%
+}
+.tou1{
+    width: 100%;
+    height: 1.34rem;
+    /*background: gold;*/
+    padding: 0 .3rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+
+}
+.touli1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    line-height: .67rem;
+    padding: .2rem 0;
+}
+.touli1 .jian i{
+    font-size: .54rem;
+}
+.touli1 .che i{
+    font-size: .58rem;
+
+}
+.touli1 .che{
+    /*float: right;*/
+    margin-left: 3.8rem;
+}
+.touli1 .xuan i{
+    font-size: .54rem;
+
+}
+.touli1 .xuan{
+    float: right;
+}
+.touli1 div{
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 50%;
+    text-align: center;
+    line-height: .9rem;
+    font-size: 0;
+}
+
+.shenti {
+    width: 100%;
+    height: auto;
+    background: #ddd;
+    padding-bottom: .2rem;
+
+    /*position: absolute;*/
+    /*top: 1.34rem;*/
+}
+.hawaya{
+    padding: 0 .3rem;
+    overflow: hidden;
+}
+.qiana{
+    /*float: left;*/
+    width: 100%;
+    height: .4rem;
+    font-size: .48rem;
+    color: #ff0000;
+    padding: 0 .3rem;
+
+}
+.zongguan{
+    margin: .25rem 0;
+    padding: 0 .3rem;
+    width: 100%;
+    height: .40rem;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.tuxia span{
+    font-size: .36rem;
+}
+.tutuxia span{
+    font-size: .36rem;
+}
+.tutuxia span i{
+    color: red;
+    margin-right: .1rem;
+}
+.tutuxia{
+    display: flex;
+    width: 100%;
+    padding: 0 .3rem;
+    margin: .2rem 0;
+    height: .8rem;
+    background: #cccccc;
+    justify-content: space-between;
+    line-height: .8rem;
+    border-bottom: 0.01rem solid #333;
+}
+.mai{
+    width: 100%;
+    height: 1.60rem;
+
+}
+.mai div{
+    width: 100%;
+    height: .8rem;
+    background: #cccccc;
+    font-size: .36rem;
+    padding: 0 .3rem;
+    line-height: .8rem;
+
+
+}
+.zhutu{
+    width: 100%;
+    height: 7.2rem;
+}
+.tuxia div p{
+    width: 5.7rem;
+    font-size: .36rem;
+    float: left;
+}
+.tuxia div p i{
+    font-size: .40rem;
+}
+.fen{
+    font-size: .28rem;
+    float: right;
+}
+.fen i{
+    font-size: .52rem;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.zuidi{
+    width: 100%;
+    height: 1.2rem;
+    background: #eeee00;
+    position: fixed;
+    bottom: 0;
+    display:flex;
+    justify-content: space-between;
+}
+.zuidi div{
+    width: 2.26rem;
+    line-height: 1.2rem;
+    font-size: .32rem;
+    text-align: center;
+}
+.tehong{
+    color: #ff0036;
+}

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 401011 */
+    src: url('//at.alicdn.com/t/font_401011_se09errn3lrkvs4i.eot');
+    src: url('//at.alicdn.com/t/font_401011_se09errn3lrkvs4i.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_401011_se09errn3lrkvs4i.woff') format('woff'),
+    url('//at.alicdn.com/t/font_401011_se09errn3lrkvs4i.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_401011_se09errn3lrkvs4i.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: .77rem;
+    background: red;
+    padding: 0rem .15rem;
+}
+.top{
+    width: 100%;
+    height: .32rem;
+    background: yellow;
+}
+.top span{
+    display: block;
+    float: left;
+    width: .3rem;
+    height: .3rem;
+    background: blue;
+}
+/*.top .touwen{*/
+    /*float: right;*/
+/*}*/
+.top span:nth-child(3){
+    float: right;
+    font-size: .15rem;
+    line-height: .37rem;
+}
+.top span:nth-child(2){
+    background: url("../img/1.png");
+    background-position: center;
+    margin-left: .9rem;
+    width: 1.06rem;
+    background-size: cover;
+}
+.top span:nth-child(1){
+    line-height: .3rem;
+    text-align: center;
+    color: red;
+}
+.bottom{
+    width: 3.45rem;
+    height: .35rem;
+    background: green;
+
+}
+.bottom input{
+    width: 100%;
+    height:100%;
+    padding-left: .3rem;
+}
+main{
+    background: #f5f5f5;
+
+}
+#nei1{
+    width: 100%;
+    height: 1.02rem;
+    background: blueviolet;
+    padding: .15rem .16rem;
+}
+#nei1 li{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background: blue;
+}
+#nei1 li a{
+    display: block;
+    width: .48rem;
+    height: .48rem;
+    border-radius: 50%;
+    background: #cccccc;
+    margin: 0 auto;
+}
+main #nei1 li span{
+    font-size: .15rem;
+    display: block;
+    text-align: center;
+}
+.hei{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: red;
+    height: .5rem;
+}
+.ban{
+    padding:.5rem;
+    border: .5rem solid rgba(0,0,0,0.2);
+    width: 100%;
+    height: 5rem;
+    background-color: purple;
+    background-image: url('../img/1.jpg');
+    /*background-position:left;*/
+    /*background-clip:padding-box;*/
+    /*background-clip: content-box;*/
+    /*background-clip: border-box;*/
+    /*background-size: 1.1rem 1.1rem;*/
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+}

@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 401011 */
+    src: url('//at.alicdn.com/t/font_401011_gpfn9rfyex8khuxr.eot');
+    src: url('//at.alicdn.com/t/font_401011_gpfn9rfyex8khuxr.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_401011_gpfn9rfyex8khuxr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_401011_gpfn9rfyex8khuxr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_401011_gpfn9rfyex8khuxr.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+    margin:0;   /*清楚body身上的8px；*/
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height:100%
+}
+.tou1{
+    width: 100%;
+    height: 1.34rem;
+    background: gold;
+    padding: 0 .3rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+
+}
+.touli1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.top{
+    width: 100%;
+    height: 100%;
+    line-height: 1.34rem;
+    font-size: 0;
+}
+.top i{
+    font-size: .48rem;
+    margin-right: .2rem;
+}
+.top span{
+    display: inline-block;
+    font-size: .40rem;
+}
+.you{
+    float: right;
+    margin-right: .2rem;
+}
+.shenti {
+    width: 100%;
+    height: auto;
+    /*background: #ae57a4;*/
+    padding-bottom: .2rem;
+    position: absolute;
+    top: 1.34rem;
+}
+.tute{
+    width: 2.20rem;
+    height: 2.20rem;
+    float: left;
+    border-radius: 50%;
+}
+.zite{
+    float: left;
+    font-size: .42rem;
+}
+.zuida{
+    width: 100%;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    background: url("../img/1.jpg");
+}
+.san{
+    width: 100%;
+    height: 2rem;
+    /*background: #99fffc;*/    background-color: #afd9ee;
+
+    padding: 0 .3rem;
+}
+.san li p{
+    height: 1.6rem;
+    line-height: 0.7rem;
+    margin-top: .2rem;
+
+}
+.san li{
+    width: 2.20rem;
+    height: 2rem;
+    float: left;
+    font-size: .36rem;
+    text-align: center;
+}
+.shang{
+    width: 100%;
+    height: .6rem;
+    font-size: .36rem;
+    line-height: .6rem;
+
+}
+.zhonga{
+    width: 100%;
+    /*height: 5.5rem;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.zhonga li{
+    width: 2.20rem;
+    height: 1.60rem;
+    background: #CCCCCC;
+    margin-top: 0.2rem;
+    line-height: 1.6rem;
+}
+.zhonga li i{
+    display: block;
+    float: right;
+    font-size: 1rem;
+    margin-right: .3rem;
+}
+.zhonga li p{
+    font-size: .36rem;
+    width: .40rem;
+    height: auto;
+    float: left;
+    line-height: normal;
+    margin-top: .1rem;
+    margin-left: .3rem;
+}
+.ltxx p{
+    width: .80rem;
+    font-size: .36rem;
+    float: left;
+}
+.ltxx i{
+    display: block;
+    float: right;
+}
+#shang{
+    margin-top: .2rem;
+}
+.shang .wo{
+    display: block;
+    float: left;
+    font-size: .40rem;
+    font-weight: 500;
+}
+.shang .ni{
+    display: block;
+    float: right;
+
+}
+.xiaoxi div{
+    width: 3.3rem;
+    height: 100%;
+    font-size: .36rem;
+    float: left;
+}
+.ltxx{
+    margin-right: .25rem;
+}
+.xiaoxi{
+    width: 100%;
+    height: 1.60rem;
+
+}
+.dite{
+    width: 2.60rem;
+    height: 1.10rem;
+    float: right;
+    font-size: .36rem;
+    border-radius:100px 0  0 100px;
+    background: yellow;
+    margin-top: .6rem;
+    line-height: 1.10rem;
+}
+.zite{
+    font-weight:600;
+    margin-left: .3rem;
+}
+.dite i{
+    margin-left: .2rem;
+    display: inline-block;
+}
+
+
+.dian{
+    width: 100%;
+    height: auto;
+    padding: 0 .3rem;
+}
+
+
+
+
+
+
+
+
+
+
+.zuidi{
+    width: 100%;
+    height: 1.2rem;
+    background: #eeee00;
+    position: fixed;
+    bottom: 0;
+    display:flex;
+    justify-content: space-between;
+}
+.zuidi div{
+    width: 2.26rem;
+    line-height: 1.2rem;
+    font-size: .32rem;
+    text-align: center;
+}
+.tehong{
+    color: #ff0036;
+}

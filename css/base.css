@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background:#f7f7f7;
+}
+
+
+/*@font-face {*/
+    /*font-family: 'iconfont';  !* project id 403499 *!*/
+    /*src: url('https://at.alicdn.com/t/font_403499_zds4sijf4dxcg14i.eot');*/
+    /*src: url('https://at.alicdn.com/t/font_403499_zds4sijf4dxcg14i.eot?#iefix') format('embedded-opentype'),*/
+    /*url('https://at.alicdn.com/t/font_403499_zds4sijf4dxcg14i.woff') format('woff'),*/
+    /*url('https://at.alicdn.com/t/font_403499_zds4sijf4dxcg14i.ttf') format('truetype'),*/
+    /*url('https://at.alicdn.com/t/font_403499_zds4sijf4dxcg14i.svg#iconfont') format('svg');*/
+/*}*/
+
+
+/*@font-face {*/
+    /*font-family: 'iconfont';  !* project id 403499 *!*/
+    /*src: url('https://at.alicdn.com/t/font_403499_9h3ih2dsnt6mkj4i.eot');*/
+    /*src: url('https://at.alicdn.com/t/font_403499_9h3ih2dsnt6mkj4i.eot?#iefix') format('embedded-opentype'),*/
+    /*url('https://at.alicdn.com/t/font_403499_9h3ih2dsnt6mkj4i.woff') format('woff'),*/
+    /*url('https://at.alicdn.com/t/font_403499_9h3ih2dsnt6mkj4i.ttf') format('truetype'),*/
+    /*url('https://at.alicdn.com/t/font_403499_9h3ih2dsnt6mkj4i.svg#iconfont') format('svg');*/
+/*}*/
+
+@font-face {
+    font-family: 'iconfont';  /* project id 403499 */
+    src: url('https://at.alicdn.com/t/font_403499_n1hmncc8g5ezh0k9.eot');
+    src: url('https://at.alicdn.com/t/font_403499_n1hmncc8g5ezh0k9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_403499_n1hmncc8g5ezh0k9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_403499_n1hmncc8g5ezh0k9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_403499_n1hmncc8g5ezh0k9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:20px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color:#b0b0b0;
+}
